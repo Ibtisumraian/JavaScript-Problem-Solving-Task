@@ -18,4 +18,15 @@ function countVowels(str) {
   return count;
 }
 
-console.log('Vowels Count =>',countVowels("programming"));
+console.log('Vowels Count =>', countVowels("programming"));
+
+
+// * Problem 3: Check for Palindrome
+
+function isPalindrome(str) {
+  const reversed = str.split("").reverse().join("");
+  return str === reversed;
+}
+
+console.log(isPalindrome("madam"));
+console.log(isPalindrome("hello")); 
