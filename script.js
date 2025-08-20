@@ -51,7 +51,14 @@ console.log(removeDuplicates([1, 1, 2, 2, 3, 3, 4, 4]));
 
 
 
-// * 
+// * Problem 6: Sum of All Numbers in an Array
+
+function sumArray(arr) {
+  return arr.reduce((sum, num) => sum + num, 0);
+}
+
+console.log(sumArray([1, 2, 3, 4, 5])); 
+
 // * 
 // * 
 // * 
